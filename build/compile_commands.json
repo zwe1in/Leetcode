@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/test",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\test.dir\\test.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\test\\test.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/test/test.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/84_largestRectangleArea",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\84.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\84_largestRectangleArea\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/84_largestRectangleArea/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/739_dailyTemperatures",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\739.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\739_dailyTemperatures\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/739_dailyTemperatures/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/503_nextGreaterElements",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\503.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\503_nextGreaterElements\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/503_nextGreaterElements/main.cpp"
+}
+]
