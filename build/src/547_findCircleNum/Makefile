@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles C:\Users\PC\Desktop\Leetcode\build\CMakeFiles\progress.marks
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles C:\Users\PC\Desktop\Leetcode\build\src\547_findCircleNum\CMakeFiles\progress.marks
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/547_findCircleNum/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/547_findCircleNum/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,12 +96,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/547_findCircleNum/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/547_findCircleNum/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -109,83 +109,47 @@ depend:
 	cd /d c:\Users\PC\Desktop\Leetcode\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named test
+# Convenience name for target.
+src/547_findCircleNum/CMakeFiles/739.dir/rule:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/547_findCircleNum/CMakeFiles/739.dir/rule
+.PHONY : src/547_findCircleNum/CMakeFiles/739.dir/rule
 
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 test
-.PHONY : test
+# Convenience name for target.
+739: src/547_findCircleNum/CMakeFiles/739.dir/rule
 
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named 84
-
-# Build rule for target.
-84: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 84
-.PHONY : 84
-
-# fast build rule for target.
-84/fast:
-	$(MAKE) -f src\84_largestRectangleArea\CMakeFiles\84.dir\build.make src/84_largestRectangleArea/CMakeFiles/84.dir/build
-.PHONY : 84/fast
-
-#=============================================================================
-# Target rules for targets named 547
-
-# Build rule for target.
-547: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 547
-.PHONY : 547
-
-# fast build rule for target.
-547/fast:
-	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/build
-.PHONY : 547/fast
-
-#=============================================================================
-# Target rules for targets named 503
-
-# Build rule for target.
-503: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 503
-.PHONY : 503
-
-# fast build rule for target.
-503/fast:
-	$(MAKE) -f src\503_nextGreaterElements\CMakeFiles\503.dir\build.make src/503_nextGreaterElements/CMakeFiles/503.dir/build
-.PHONY : 503/fast
-
-#=============================================================================
-# Target rules for targets named 739
-
-# Build rule for target.
-739: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 739
 .PHONY : 739
 
 # fast build rule for target.
 739/fast:
-	$(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/build
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/build
 .PHONY : 739/fast
 
-#=============================================================================
-# Target rules for targets named 523
+main.obj: main.cpp.obj
 
-# Build rule for target.
-523: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 523
-.PHONY : 523
+.PHONY : main.obj
 
-# fast build rule for target.
-523/fast:
-	$(MAKE) -f src\523_checkSubarraySum\CMakeFiles\523.dir\build.make src/523_checkSubarraySum/CMakeFiles/523.dir/build
-.PHONY : 523/fast
+# target to build an object file
+main.cpp.obj:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -193,14 +157,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... 739
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test
-	@echo ... 84
-	@echo ... 547
-	@echo ... 503
-	@echo ... 739
-	@echo ... 523
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
@@ -212,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

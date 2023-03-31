@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Desktop/Leetcode/src
+# Install script for directory: C:/Users/PC/Desktop/Leetcode/src/547_findCircleNum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,15 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/PC/Desktop/Leetcode/build/src/84_largestRectangleArea/cmake_install.cmake")
-  include("C:/Users/PC/Desktop/Leetcode/build/src/739_dailyTemperatures/cmake_install.cmake")
-  include("C:/Users/PC/Desktop/Leetcode/build/src/503_nextGreaterElements/cmake_install.cmake")
-  include("C:/Users/PC/Desktop/Leetcode/build/src/547_findCircleNum/cmake_install.cmake")
-  include("C:/Users/PC/Desktop/Leetcode/build/src/523_checkSubarraySum/cmake_install.cmake")
-
 endif()
 

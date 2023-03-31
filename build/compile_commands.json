@@ -11,12 +11,22 @@
 },
 {
   "directory": "C:/Users/PC/Desktop/Leetcode/build/src/739_dailyTemperatures",
-  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\739.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\739_dailyTemperatures\\main.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\547.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\739_dailyTemperatures\\main.cpp",
   "file": "C:/Users/PC/Desktop/Leetcode/src/739_dailyTemperatures/main.cpp"
 },
 {
   "directory": "C:/Users/PC/Desktop/Leetcode/build/src/503_nextGreaterElements",
   "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\503.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\503_nextGreaterElements\\main.cpp",
   "file": "C:/Users/PC/Desktop/Leetcode/src/503_nextGreaterElements/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/547_findCircleNum",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\739.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\547_findCircleNum\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/547_findCircleNum/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/523_checkSubarraySum",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\523.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\523_checkSubarraySum\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/523_checkSubarraySum/main.cpp"
 }
 ]

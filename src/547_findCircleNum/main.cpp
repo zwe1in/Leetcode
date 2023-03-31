@@ -5,7 +5,9 @@
 
 using namespace std;
 
-
+/**
+ * @brief 深度搜索，效率较低，好像可以用并集查找的方式
+*/
 bool dfs(vector<vector<int>>& isConnected, int idx, int n)
 {
     bool hasConnected = false;
@@ -53,11 +55,6 @@ int main()
     }
 
     cout << findCircleNum(matrix) << endl;
-    // for(auto line : matrix)
-    // {
-    //     for(auto i : line)
-    //         cout << i << " ";
-    //     cout << endl;
-    // }
+
     return 0;
 }
