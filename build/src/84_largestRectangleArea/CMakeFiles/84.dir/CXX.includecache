@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Desktop/Leetcode/src/84_largestRectangleArea/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+algorithm
+-
+

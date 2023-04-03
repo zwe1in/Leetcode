@@ -39,6 +39,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/PC/Desktop/Leetcode/build/src/503_nextGreaterElements/cmake_install.cmake")
   include("C:/Users/PC/Desktop/Leetcode/build/src/547_findCircleNum/cmake_install.cmake")
   include("C:/Users/PC/Desktop/Leetcode/build/src/523_checkSubarraySum/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/560_subarraySum/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/1004_longestOnes/cmake_install.cmake")
 
 endif()
 

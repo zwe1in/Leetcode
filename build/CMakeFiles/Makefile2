@@ -88,7 +88,7 @@ test/preinstall:
 test/CMakeFiles/test.dir/all:
 	$(MAKE) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/depend
 	$(MAKE) -f test\CMakeFiles\test.dir\build.make test/CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=11,12 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=15,16 "Built target test"
 .PHONY : test/CMakeFiles/test.dir/all
 
 # Include target in all.
@@ -127,6 +127,8 @@ src/all: src/739_dailyTemperatures/all
 src/all: src/503_nextGreaterElements/all
 src/all: src/547_findCircleNum/all
 src/all: src/523_checkSubarraySum/all
+src/all: src/560_subarraySum/all
+src/all: src/1004_longestOnes/all
 
 .PHONY : src/all
 
@@ -136,6 +138,8 @@ src/clean: src/739_dailyTemperatures/clean
 src/clean: src/503_nextGreaterElements/clean
 src/clean: src/547_findCircleNum/clean
 src/clean: src/523_checkSubarraySum/clean
+src/clean: src/560_subarraySum/clean
+src/clean: src/1004_longestOnes/clean
 
 .PHONY : src/clean
 
@@ -145,6 +149,8 @@ src/preinstall: src/739_dailyTemperatures/preinstall
 src/preinstall: src/503_nextGreaterElements/preinstall
 src/preinstall: src/547_findCircleNum/preinstall
 src/preinstall: src/523_checkSubarraySum/preinstall
+src/preinstall: src/560_subarraySum/preinstall
+src/preinstall: src/1004_longestOnes/preinstall
 
 .PHONY : src/preinstall
 
@@ -173,7 +179,7 @@ src/84_largestRectangleArea/preinstall:
 src/84_largestRectangleArea/CMakeFiles/84.dir/all:
 	$(MAKE) -f src\84_largestRectangleArea\CMakeFiles\84.dir\build.make src/84_largestRectangleArea/CMakeFiles/84.dir/depend
 	$(MAKE) -f src\84_largestRectangleArea\CMakeFiles\84.dir\build.make src/84_largestRectangleArea/CMakeFiles/84.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=9,10 "Built target 84"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=13,14 "Built target 84"
 .PHONY : src/84_largestRectangleArea/CMakeFiles/84.dir/all
 
 # Include target in all.
@@ -207,12 +213,12 @@ clean: src/84_largestRectangleArea/CMakeFiles/84.dir/clean
 # Directory level rules for directory src/739_dailyTemperatures
 
 # Convenience name for "all" pass in the directory.
-src/739_dailyTemperatures/all: src/739_dailyTemperatures/CMakeFiles/547.dir/all
+src/739_dailyTemperatures/all: src/739_dailyTemperatures/CMakeFiles/1004.dir/all
 
 .PHONY : src/739_dailyTemperatures/all
 
 # Convenience name for "clean" pass in the directory.
-src/739_dailyTemperatures/clean: src/739_dailyTemperatures/CMakeFiles/547.dir/clean
+src/739_dailyTemperatures/clean: src/739_dailyTemperatures/CMakeFiles/1004.dir/clean
 
 .PHONY : src/739_dailyTemperatures/clean
 
@@ -222,39 +228,39 @@ src/739_dailyTemperatures/preinstall:
 .PHONY : src/739_dailyTemperatures/preinstall
 
 #=============================================================================
-# Target rules for target src/739_dailyTemperatures/CMakeFiles/547.dir
+# Target rules for target src/739_dailyTemperatures/CMakeFiles/1004.dir
 
 # All Build rule for target.
-src/739_dailyTemperatures/CMakeFiles/547.dir/all:
-	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/depend
-	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=5,6 "Built target 547"
-.PHONY : src/739_dailyTemperatures/CMakeFiles/547.dir/all
+src/739_dailyTemperatures/CMakeFiles/1004.dir/all:
+	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/depend
+	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=1,2 "Built target 1004"
+.PHONY : src/739_dailyTemperatures/CMakeFiles/1004.dir/all
 
 # Include target in all.
-all: src/739_dailyTemperatures/CMakeFiles/547.dir/all
+all: src/739_dailyTemperatures/CMakeFiles/1004.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/739_dailyTemperatures/CMakeFiles/547.dir/rule: cmake_check_build_system
+src/739_dailyTemperatures/CMakeFiles/1004.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 src/739_dailyTemperatures/CMakeFiles/547.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 src/739_dailyTemperatures/CMakeFiles/1004.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 0
-.PHONY : src/739_dailyTemperatures/CMakeFiles/547.dir/rule
+.PHONY : src/739_dailyTemperatures/CMakeFiles/1004.dir/rule
 
 # Convenience name for target.
-547: src/739_dailyTemperatures/CMakeFiles/547.dir/rule
+1004: src/739_dailyTemperatures/CMakeFiles/1004.dir/rule
 
-.PHONY : 547
-
-# clean rule for target.
-src/739_dailyTemperatures/CMakeFiles/547.dir/clean:
-	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/clean
-.PHONY : src/739_dailyTemperatures/CMakeFiles/547.dir/clean
+.PHONY : 1004
 
 # clean rule for target.
-clean: src/739_dailyTemperatures/CMakeFiles/547.dir/clean
+src/739_dailyTemperatures/CMakeFiles/1004.dir/clean:
+	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/clean
+.PHONY : src/739_dailyTemperatures/CMakeFiles/1004.dir/clean
+
+# clean rule for target.
+clean: src/739_dailyTemperatures/CMakeFiles/1004.dir/clean
 
 .PHONY : clean
 
@@ -283,7 +289,7 @@ src/503_nextGreaterElements/preinstall:
 src/503_nextGreaterElements/CMakeFiles/503.dir/all:
 	$(MAKE) -f src\503_nextGreaterElements\CMakeFiles\503.dir\build.make src/503_nextGreaterElements/CMakeFiles/503.dir/depend
 	$(MAKE) -f src\503_nextGreaterElements\CMakeFiles\503.dir\build.make src/503_nextGreaterElements/CMakeFiles/503.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=1,2 "Built target 503"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=3,4 "Built target 503"
 .PHONY : src/503_nextGreaterElements/CMakeFiles/503.dir/all
 
 # Include target in all.
@@ -338,7 +344,7 @@ src/547_findCircleNum/preinstall:
 src/547_findCircleNum/CMakeFiles/739.dir/all:
 	$(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/depend
 	$(MAKE) -f src\547_findCircleNum\CMakeFiles\739.dir\build.make src/547_findCircleNum/CMakeFiles/739.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=7,8 "Built target 739"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=11,12 "Built target 739"
 .PHONY : src/547_findCircleNum/CMakeFiles/739.dir/all
 
 # Include target in all.
@@ -393,7 +399,7 @@ src/523_checkSubarraySum/preinstall:
 src/523_checkSubarraySum/CMakeFiles/523.dir/all:
 	$(MAKE) -f src\523_checkSubarraySum\CMakeFiles\523.dir\build.make src/523_checkSubarraySum/CMakeFiles/523.dir/depend
 	$(MAKE) -f src\523_checkSubarraySum\CMakeFiles\523.dir\build.make src/523_checkSubarraySum/CMakeFiles/523.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=3,4 "Built target 523"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=5,6 "Built target 523"
 .PHONY : src/523_checkSubarraySum/CMakeFiles/523.dir/all
 
 # Include target in all.
@@ -420,6 +426,116 @@ src/523_checkSubarraySum/CMakeFiles/523.dir/clean:
 
 # clean rule for target.
 clean: src/523_checkSubarraySum/CMakeFiles/523.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/560_subarraySum
+
+# Convenience name for "all" pass in the directory.
+src/560_subarraySum/all: src/560_subarraySum/CMakeFiles/560.dir/all
+
+.PHONY : src/560_subarraySum/all
+
+# Convenience name for "clean" pass in the directory.
+src/560_subarraySum/clean: src/560_subarraySum/CMakeFiles/560.dir/clean
+
+.PHONY : src/560_subarraySum/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/560_subarraySum/preinstall:
+
+.PHONY : src/560_subarraySum/preinstall
+
+#=============================================================================
+# Target rules for target src/560_subarraySum/CMakeFiles/560.dir
+
+# All Build rule for target.
+src/560_subarraySum/CMakeFiles/560.dir/all:
+	$(MAKE) -f src\560_subarraySum\CMakeFiles\560.dir\build.make src/560_subarraySum/CMakeFiles/560.dir/depend
+	$(MAKE) -f src\560_subarraySum\CMakeFiles\560.dir\build.make src/560_subarraySum/CMakeFiles/560.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=9,10 "Built target 560"
+.PHONY : src/560_subarraySum/CMakeFiles/560.dir/all
+
+# Include target in all.
+all: src/560_subarraySum/CMakeFiles/560.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/560_subarraySum/CMakeFiles/560.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 src/560_subarraySum/CMakeFiles/560.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 0
+.PHONY : src/560_subarraySum/CMakeFiles/560.dir/rule
+
+# Convenience name for target.
+560: src/560_subarraySum/CMakeFiles/560.dir/rule
+
+.PHONY : 560
+
+# clean rule for target.
+src/560_subarraySum/CMakeFiles/560.dir/clean:
+	$(MAKE) -f src\560_subarraySum\CMakeFiles\560.dir\build.make src/560_subarraySum/CMakeFiles/560.dir/clean
+.PHONY : src/560_subarraySum/CMakeFiles/560.dir/clean
+
+# clean rule for target.
+clean: src/560_subarraySum/CMakeFiles/560.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/1004_longestOnes
+
+# Convenience name for "all" pass in the directory.
+src/1004_longestOnes/all: src/1004_longestOnes/CMakeFiles/547.dir/all
+
+.PHONY : src/1004_longestOnes/all
+
+# Convenience name for "clean" pass in the directory.
+src/1004_longestOnes/clean: src/1004_longestOnes/CMakeFiles/547.dir/clean
+
+.PHONY : src/1004_longestOnes/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/1004_longestOnes/preinstall:
+
+.PHONY : src/1004_longestOnes/preinstall
+
+#=============================================================================
+# Target rules for target src/1004_longestOnes/CMakeFiles/547.dir
+
+# All Build rule for target.
+src/1004_longestOnes/CMakeFiles/547.dir/all:
+	$(MAKE) -f src\1004_longestOnes\CMakeFiles\547.dir\build.make src/1004_longestOnes/CMakeFiles/547.dir/depend
+	$(MAKE) -f src\1004_longestOnes\CMakeFiles\547.dir\build.make src/1004_longestOnes/CMakeFiles/547.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Desktop\Leetcode\build\CMakeFiles --progress-num=7,8 "Built target 547"
+.PHONY : src/1004_longestOnes/CMakeFiles/547.dir/all
+
+# Include target in all.
+all: src/1004_longestOnes/CMakeFiles/547.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/1004_longestOnes/CMakeFiles/547.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 src/1004_longestOnes/CMakeFiles/547.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Desktop\Leetcode\build\CMakeFiles 0
+.PHONY : src/1004_longestOnes/CMakeFiles/547.dir/rule
+
+# Convenience name for target.
+547: src/1004_longestOnes/CMakeFiles/547.dir/rule
+
+.PHONY : 547
+
+# clean rule for target.
+src/1004_longestOnes/CMakeFiles/547.dir/clean:
+	$(MAKE) -f src\1004_longestOnes\CMakeFiles\547.dir\build.make src/1004_longestOnes/CMakeFiles/547.dir/clean
+.PHONY : src/1004_longestOnes/CMakeFiles/547.dir/clean
+
+# clean rule for target.
+clean: src/1004_longestOnes/CMakeFiles/547.dir/clean
 
 .PHONY : clean
 

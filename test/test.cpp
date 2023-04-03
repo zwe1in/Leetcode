@@ -5,59 +5,36 @@
 
 using namespace std;
 
-
-bool dfs(vector<vector<int>>& isConnected, int idx, int n)
+int longestOnes(vector<int>& nums, int k)
 {
-    bool hasConnected = false;
-    if(idx == n)
-        return hasConnected;
-    
-    for(int i = 0; i < n; ++i)
+    vector<int> zeroIndex;
+    zeroIndex.push_back(-1);
+    for(int i = 0; i < nums.size(); ++i)
     {
-        if(isConnected[idx][i])
-        {
-            isConnected[idx][i] = 0;
-            dfs(isConnected, i, n);
-            hasConnected = true;
-        }
+        if(nums[i] == 0)
+            zeroIndex.push_back(i);
     }
-    return hasConnected;
-}
+    zeroIndex.push_back(nums.size());
 
-int findCircleNum(vector<vector<int>>& isConnected)
-{
-    int count = 0;
-    for(int i = 0; i < isConnected.size(); ++i)
-    {
-        if(dfs(isConnected, i, isConnected.size()))
-            ++count;
-    }
-    return count;
+    if(k >= zeroIndex.size() - 2)
+        return nums.size();
+    int maxLen = 0; 
+    for(int i = 0; i < zeroIndex.size() - k; ++i)
+        maxLen = max(maxLen, zeroIndex[i + k + 1] - zeroIndex[i] - 1);
+    return maxLen;
 }
 
 int main()
 {
-    int count;
-    cout << "Input the row and col of the matrix: " << endl;
-    cin >> count;
-    cin.ignore();
-    vector<vector<int>> matrix(count, vector<int>(count));
-    cout << "Input the matrix: " << endl;
-    for(int i = 0; i < count; ++i)
-    {
-        string input;
-        getline(cin, input);
-        stringstream inputStream(input);
-        for(int j = 0; j < count; ++j)
-            inputStream >> matrix[i][j];
-    }
+    string input;
+    getline(cin, input);
+    stringstream ss(input);
+    int tmp, k;
+    vector<int> nums;
+    while(ss >> tmp)
+        nums.push_back(tmp);
+    cin >> k;
 
-    cout << findCircleNum(matrix) << endl;
-    // for(auto line : matrix)
-    // {
-    //     for(auto i : line)
-    //         cout << i << " ";
-    //     cout << endl;
-    // }
+    cout << longestOnes(nums, k) << endl;
     return 0;
 }

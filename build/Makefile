@@ -136,17 +136,17 @@ test/fast:
 .PHONY : 84/fast
 
 #=============================================================================
-# Target rules for targets named 547
+# Target rules for targets named 1004
 
 # Build rule for target.
-547: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 547
-.PHONY : 547
+1004: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1004
+.PHONY : 1004
 
 # fast build rule for target.
-547/fast:
-	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/build
-.PHONY : 547/fast
+1004/fast:
+	$(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/build
+.PHONY : 1004/fast
 
 #=============================================================================
 # Target rules for targets named 503
@@ -187,6 +187,32 @@ test/fast:
 	$(MAKE) -f src\523_checkSubarraySum\CMakeFiles\523.dir\build.make src/523_checkSubarraySum/CMakeFiles/523.dir/build
 .PHONY : 523/fast
 
+#=============================================================================
+# Target rules for targets named 560
+
+# Build rule for target.
+560: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 560
+.PHONY : 560
+
+# fast build rule for target.
+560/fast:
+	$(MAKE) -f src\560_subarraySum\CMakeFiles\560.dir\build.make src/560_subarraySum/CMakeFiles/560.dir/build
+.PHONY : 560/fast
+
+#=============================================================================
+# Target rules for targets named 547
+
+# Build rule for target.
+547: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 547
+.PHONY : 547
+
+# fast build rule for target.
+547/fast:
+	$(MAKE) -f src\1004_longestOnes\CMakeFiles\547.dir\build.make src/1004_longestOnes/CMakeFiles/547.dir/build
+.PHONY : 547/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -197,10 +223,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... 84
-	@echo ... 547
+	@echo ... 1004
 	@echo ... 503
 	@echo ... 739
 	@echo ... 523
+	@echo ... 560
+	@echo ... 547
 .PHONY : help
 
 

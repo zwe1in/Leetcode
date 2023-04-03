@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Desktop/Leetcode/src/547_findCircleNum/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+

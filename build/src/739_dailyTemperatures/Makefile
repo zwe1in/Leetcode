@@ -110,19 +110,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/739_dailyTemperatures/CMakeFiles/547.dir/rule:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/739_dailyTemperatures/CMakeFiles/547.dir/rule
-.PHONY : src/739_dailyTemperatures/CMakeFiles/547.dir/rule
+src/739_dailyTemperatures/CMakeFiles/1004.dir/rule:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f CMakeFiles\Makefile2 src/739_dailyTemperatures/CMakeFiles/1004.dir/rule
+.PHONY : src/739_dailyTemperatures/CMakeFiles/1004.dir/rule
 
 # Convenience name for target.
-547: src/739_dailyTemperatures/CMakeFiles/547.dir/rule
+1004: src/739_dailyTemperatures/CMakeFiles/1004.dir/rule
 
-.PHONY : 547
+.PHONY : 1004
 
 # fast build rule for target.
-547/fast:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/build
-.PHONY : 547/fast
+1004/fast:
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/build
+.PHONY : 1004/fast
 
 main.obj: main.cpp.obj
 
@@ -130,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/main.cpp.obj
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -139,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/main.cpp.i
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -148,7 +148,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\547.dir\build.make src/739_dailyTemperatures/CMakeFiles/547.dir/main.cpp.s
+	cd /d c:\Users\PC\Desktop\Leetcode\build && $(MAKE) -f src\739_dailyTemperatures\CMakeFiles\1004.dir\build.make src/739_dailyTemperatures/CMakeFiles/1004.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,8 +157,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 547
 	@echo ... edit_cache
+	@echo ... 1004
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i

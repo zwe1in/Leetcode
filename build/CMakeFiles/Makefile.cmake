@@ -12,9 +12,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "../src/1004_longestOnes/CMakeLists.txt"
   "../src/503_nextGreaterElements/CMakeLists.txt"
   "../src/523_checkSubarraySum/CMakeLists.txt"
   "../src/547_findCircleNum/CMakeLists.txt"
+  "../src/560_subarraySum/CMakeLists.txt"
   "../src/739_dailyTemperatures/CMakeLists.txt"
   "../src/84_largestRectangleArea/CMakeLists.txt"
   "../src/CMakeLists.txt"
@@ -58,14 +60,18 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/503_nextGreaterElements/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/547_findCircleNum/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/523_checkSubarraySum/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/560_subarraySum/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/1004_longestOnes/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/test.dir/DependInfo.cmake"
   "src/84_largestRectangleArea/CMakeFiles/84.dir/DependInfo.cmake"
-  "src/739_dailyTemperatures/CMakeFiles/547.dir/DependInfo.cmake"
+  "src/739_dailyTemperatures/CMakeFiles/1004.dir/DependInfo.cmake"
   "src/503_nextGreaterElements/CMakeFiles/503.dir/DependInfo.cmake"
   "src/547_findCircleNum/CMakeFiles/739.dir/DependInfo.cmake"
   "src/523_checkSubarraySum/CMakeFiles/523.dir/DependInfo.cmake"
+  "src/560_subarraySum/CMakeFiles/560.dir/DependInfo.cmake"
+  "src/1004_longestOnes/CMakeFiles/547.dir/DependInfo.cmake"
   )

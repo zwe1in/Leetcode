@@ -8,3 +8,7 @@ add_subdirectory(503_nextGreaterElements)
 # 2023-3-30
 add_subdirectory(547_findCircleNum)
 add_subdirectory(523_checkSubarraySum)
+add_subdirectory(560_subarraySum)
+
+# 2023-4-3
+add_subdirectory(1004_longestOnes)

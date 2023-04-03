@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Desktop/Leetcode/src/739_dailyTemperatures/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+stack
+-
+vector
+-
+algorithm
+-
+

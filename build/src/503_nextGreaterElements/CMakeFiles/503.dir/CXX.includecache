@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Desktop/Leetcode/src/503_nextGreaterElements/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+stack
+-
+vector
+-
+algorithm
+-
+
