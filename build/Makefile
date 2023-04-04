@@ -213,6 +213,45 @@ test/fast:
 	$(MAKE) -f src\1004_longestOnes\CMakeFiles\547.dir\build.make src/1004_longestOnes/CMakeFiles/547.dir/build
 .PHONY : 547/fast
 
+#=============================================================================
+# Target rules for targets named 209
+
+# Build rule for target.
+209: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 209
+.PHONY : 209
+
+# fast build rule for target.
+209/fast:
+	$(MAKE) -f src\209_minSubArrayLen\CMakeFiles\209.dir\build.make src/209_minSubArrayLen/CMakeFiles/209.dir/build
+.PHONY : 209/fast
+
+#=============================================================================
+# Target rules for targets named 1094
+
+# Build rule for target.
+1094: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1094
+.PHONY : 1094
+
+# fast build rule for target.
+1094/fast:
+	$(MAKE) -f src\1094_carPooling\CMakeFiles\1094.dir\build.make src/1094_carPooling/CMakeFiles/1094.dir/build
+.PHONY : 1094/fast
+
+#=============================================================================
+# Target rules for targets named 1109
+
+# Build rule for target.
+1109: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1109
+.PHONY : 1109
+
+# fast build rule for target.
+1109/fast:
+	$(MAKE) -f src\1109_corpFlightBookings\CMakeFiles\1109.dir\build.make src/1109_corpFlightBookings/CMakeFiles/1109.dir/build
+.PHONY : 1109/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -229,6 +268,9 @@ help:
 	@echo ... 523
 	@echo ... 560
 	@echo ... 547
+	@echo ... 209
+	@echo ... 1094
+	@echo ... 1109
 .PHONY : help
 
 

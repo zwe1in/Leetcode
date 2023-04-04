@@ -12,3 +12,9 @@ add_subdirectory(560_subarraySum)
 
 # 2023-4-3
 add_subdirectory(1004_longestOnes)
+add_subdirectory(209_minSubArrayLen)
+
+# 2023-4-4
+add_subdirectory(1094_carPooling)
+add_subdirectory(1109_corpFlightBookings)
+

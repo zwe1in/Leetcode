@@ -38,5 +38,20 @@
   "directory": "C:/Users/PC/Desktop/Leetcode/build/src/1004_longestOnes",
   "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\547.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\1004_longestOnes\\main.cpp",
   "file": "C:/Users/PC/Desktop/Leetcode/src/1004_longestOnes/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/209_minSubArrayLen",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\209.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\209_minSubArrayLen\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/209_minSubArrayLen/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/1094_carPooling",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\1094.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\1094_carPooling\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/1094_carPooling/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/1109_corpFlightBookings",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\1109.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\1109_corpFlightBookings\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/1109_corpFlightBookings/main.cpp"
 }
 ]
