@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Desktop/Leetcode/src/269_alienOrder/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+algorithm
+-
+unordered_map
+-
+

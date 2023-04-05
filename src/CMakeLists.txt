@@ -18,3 +18,8 @@ add_subdirectory(209_minSubArrayLen)
 add_subdirectory(1094_carPooling)
 add_subdirectory(1109_corpFlightBookings)
 
+# 2023-4-5
+add_subdirectory(210_findOrder)
+add_subdirectory(444_sequenceReconstruction)
+add_subdirectory(269_alienOrder)
+add_subdirectory(5_longestPalindrome)

@@ -44,6 +44,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/PC/Desktop/Leetcode/build/src/209_minSubArrayLen/cmake_install.cmake")
   include("C:/Users/PC/Desktop/Leetcode/build/src/1094_carPooling/cmake_install.cmake")
   include("C:/Users/PC/Desktop/Leetcode/build/src/1109_corpFlightBookings/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/210_findOrder/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/444_sequenceReconstruction/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/269_alienOrder/cmake_install.cmake")
+  include("C:/Users/PC/Desktop/Leetcode/build/src/5_longestPalindrome/cmake_install.cmake")
 
 endif()
 

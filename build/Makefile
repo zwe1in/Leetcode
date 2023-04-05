@@ -252,6 +252,58 @@ test/fast:
 	$(MAKE) -f src\1109_corpFlightBookings\CMakeFiles\1109.dir\build.make src/1109_corpFlightBookings/CMakeFiles/1109.dir/build
 .PHONY : 1109/fast
 
+#=============================================================================
+# Target rules for targets named 210
+
+# Build rule for target.
+210: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 210
+.PHONY : 210
+
+# fast build rule for target.
+210/fast:
+	$(MAKE) -f src\210_findOrder\CMakeFiles\210.dir\build.make src/210_findOrder/CMakeFiles/210.dir/build
+.PHONY : 210/fast
+
+#=============================================================================
+# Target rules for targets named 444
+
+# Build rule for target.
+444: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 444
+.PHONY : 444
+
+# fast build rule for target.
+444/fast:
+	$(MAKE) -f src\444_sequenceReconstruction\CMakeFiles\444.dir\build.make src/444_sequenceReconstruction/CMakeFiles/444.dir/build
+.PHONY : 444/fast
+
+#=============================================================================
+# Target rules for targets named 269
+
+# Build rule for target.
+269: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 269
+.PHONY : 269
+
+# fast build rule for target.
+269/fast:
+	$(MAKE) -f src\269_alienOrder\CMakeFiles\269.dir\build.make src/269_alienOrder/CMakeFiles/269.dir/build
+.PHONY : 269/fast
+
+#=============================================================================
+# Target rules for targets named 5
+
+# Build rule for target.
+5 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5
+.PHONY : 5
+
+# fast build rule for target.
+5/fast:
+	$(MAKE) -f src\5_longestPalindrome\CMakeFiles\5.dir\build.make src/5_longestPalindrome/CMakeFiles/5.dir/build
+.PHONY : 5/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,6 +323,10 @@ help:
 	@echo ... 209
 	@echo ... 1094
 	@echo ... 1109
+	@echo ... 210
+	@echo ... 444
+	@echo ... 269
+	@echo ... 5
 .PHONY : help
 
 

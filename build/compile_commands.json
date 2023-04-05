@@ -53,5 +53,25 @@
   "directory": "C:/Users/PC/Desktop/Leetcode/build/src/1109_corpFlightBookings",
   "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\1109.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\1109_corpFlightBookings\\main.cpp",
   "file": "C:/Users/PC/Desktop/Leetcode/src/1109_corpFlightBookings/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/210_findOrder",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\210.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\210_findOrder\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/210_findOrder/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/444_sequenceReconstruction",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\444.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\444_sequenceReconstruction\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/444_sequenceReconstruction/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/269_alienOrder",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\269.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\269_alienOrder\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/269_alienOrder/main.cpp"
+},
+{
+  "directory": "C:/Users/PC/Desktop/Leetcode/build/src/5_longestPalindrome",
+  "command": "C:\\mingw64\\bin\\g++.exe    -g   -std=gnu++11 -o CMakeFiles\\5.dir\\main.cpp.obj -c C:\\Users\\PC\\Desktop\\Leetcode\\src\\5_longestPalindrome\\main.cpp",
+  "file": "C:/Users/PC/Desktop/Leetcode/src/5_longestPalindrome/main.cpp"
 }
 ]

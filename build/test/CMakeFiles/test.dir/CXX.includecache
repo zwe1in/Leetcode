@@ -9,10 +9,8 @@
 C:/Users/PC/Desktop/Leetcode/test/test.cpp
 iostream
 -
-sstream
--
-string
--
 vector
+-
+algorithm
 -
 
